@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Mine Seeker</string>
+    <string name="all_the_zombie_hunted">All THE ZOMBIE HUNTED!!</string>
+    <string name="settings">Settings</string>
+    <string name="board_size">Board Size</string>
+    <string name="zombies">#Zombies</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="start_game">START GAME</string>
+    <string name="option">OPTION</string>
+    <string name="help">HELP</string>
+    <string name="hunter">HUNTER</string>
+    <string name="chaoyi_xu">Chaoyi Xu</string>
+    <string name="by_ronghao_xu">By Ronghao Xu</string>
+    <string name="get_start">GET START</string>
+    <string name="text1">1.How to play this game: touch the tombstone to scan that place, if that place have zombie, it will turn out zombie image, or it comes out a num, which shows how many zombies in the row and column of that place. Find out all zombies to win this game!</string>
+    <string name="text2">2.Reference:background,zombie img www.hainei.org/thread-4033209-1-1.html www.58pic.com/psd/14545835.html www.962.net/meitu/65569.html pad.zol.com.cn/453/4537766.html blog.sina.com.cn/s/blog_670753cf0101dvs9.html?tj=1</string>
+    <string name="help2">HELP</string>
+    <string name="hyper_link_to_276_home_page">Hyper link to 276 home page:</string>
+    <string name="hypertext">hyperText</string>
+    <string name="textfound">textFound</string>
+    <string name="textmove">textMove</string>
+    <string-array name="boradSize">
+        <item>4*6</item>>
+        <item>5*10</item>
+        <item>6*15</item>
+        </string-array>
+    <string-array name="zombieNum">
+        <item>6</item>>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+</resources>

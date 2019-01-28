@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.caleb.mineseeker.MainActivity"
+    android:background="@drawable/welcomeimg" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ZOMBIE"
+        android:textStyle="normal|bold"
+        android:textSize="45sp"
+        android:textAllCaps="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="textEnd"
+        android:layout_alignParentTop="true"
+        android:id="@+id/title1"
+        android:textColor="?android:attr/colorButtonNormal" />
+
+    <TextView
+        android:text="@string/hunter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title2"
+        android:textSize="45sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="45dp"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:text="@string/chaoyi_xu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name2"
+        android:textSize="18sp"
+        android:textStyle="normal|italic"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_alignTop="@+id/name1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:text="@string/by_ronghao_xu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name1"
+        android:textSize="18sp"
+        android:textStyle="normal|italic"
+        android:layout_marginBottom="24dp"
+        android:textColor="?android:attr/colorButtonNormal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="@string/get_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stater"
+        android:textSize="30sp"
+        android:textStyle="normal|bold|italic"
+        android:background="@android:color/transparent"
+        android:textColor="?android:attr/colorButtonNormal"
+        android:layout_above="@+id/name1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>

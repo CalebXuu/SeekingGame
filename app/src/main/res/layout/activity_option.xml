@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_option"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.caleb.mineseeker.Option"
+    android:background="@drawable/optionimg2">
+
+    <TextView
+        android:text="@string/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:id="@+id/txtSettings"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold|italic" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/boardSize"
+        android:layout_alignTop="@+id/txtBoardSize"
+        android:layout_toRightOf="@+id/txtSettings"
+        android:layout_toEndOf="@+id/txtSettings" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zombieNum"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toRightOf="@+id/txtBoardSize"
+        android:layout_toEndOf="@+id/txtBoardSize" />
+
+    <TextView
+        android:text="@string/board_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtBoardSize"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold|italic"
+        android:layout_marginBottom="23dp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/txtSettings"
+        android:layout_alignStart="@+id/txtSettings" />
+
+    <TextView
+        android:text="@string/zombies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold|italic"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/txtBoardSize"
+        android:layout_alignStart="@+id/txtBoardSize" />
+</RelativeLayout>
